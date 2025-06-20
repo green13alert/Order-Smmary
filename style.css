@@ -1,6 +1,11 @@
 html {
   font-size: 1em;
 }
+@media (max-width: 500px) {
+  html {
+font-size: 3em;
+  }
+}
 body {
   font-family: arial;
  display: flex;
